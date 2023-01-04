@@ -11,7 +11,9 @@ describe('SearchBarComponent', () => {
       declarations: [ SearchBarComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(SearchBarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
